@@ -276,4 +276,4 @@ with gr.Blocks() as demo:
 
     run_anything_mode_button.click(auto_mode, [input_image], [output_image_for_anything_mode])
 
-demo.launch()
+demo.launch(share=True)
